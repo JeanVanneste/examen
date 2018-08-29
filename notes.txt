@@ -1,0 +1,8 @@
+Utilisation d'une base de données Postgresql situé sur un serveur distant (machine virtuelle).
+
+PDO a été utilisé pour faciliter l'utilisation des fichiers avec d'autres BDD. 
+
+Les vues sont situés dans le dossier Views, le modèle (qui gère l'ajout de fichiers à la base de données) se trouve dans le dossier Models.
+Les controlleurs sont à la racine.
+
+Le fichier createDB.sql contient les instruction pour recréer la table "grades".
